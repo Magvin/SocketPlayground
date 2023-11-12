@@ -1,0 +1,16 @@
+{
+    "name": "socketplayground",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "client-run": "cd client && yarn run start",
+        "server-run": "cd server && node server.js",
+        "run-all": "concurrently  \"yarn run client-run\" \"yarn run server-run\"",
+        "build": "react-scripts build",
+        "test": "react-scripts test -- --config=jest.config.js",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

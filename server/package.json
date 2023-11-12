@@ -1,9 +1,8 @@
 {
   "name": "cursors",
   "version": "0.1.0",
-  "description": "See other visitors' cursors in real-time",
   "main": "server.js",
-  "author": "Juha Lindstedt",
+  "author": "Zans Litinskis",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
