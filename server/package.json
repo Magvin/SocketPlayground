@@ -1,0 +1,14 @@
+{
+  "name": "cursors",
+  "version": "0.1.0",
+  "description": "See other visitors' cursors in real-time",
+  "main": "server.js",
+  "author": "Juha Lindstedt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "socket.io": "latest"
+  }
+}
